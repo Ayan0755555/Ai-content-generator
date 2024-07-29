@@ -1,9 +1,13 @@
 import React from 'react'
+import SearchSection from './_components/SearchSection'
 
 const Dashboard = () => {
   return (
     <div>
-      Himself
+     {/*Search Section*/}
+     <SearchSection/>
+
+     {/*Template List Section*/}
     </div>
   )
 }
