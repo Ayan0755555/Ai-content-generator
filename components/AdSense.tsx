@@ -5,7 +5,7 @@ type AdsenseTypes = {
     pId: string;
 }
 
-const AdSense = ({ pId }: AdsenseTypes) => {
+const Adsense = ({ pId }: AdsenseTypes) => {
   return (
     <Script
         async
@@ -16,4 +16,4 @@ const AdSense = ({ pId }: AdsenseTypes) => {
   )
 }
 
-export default AdSense
+export default Adsense
