@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Dashboard from "./dashboard/page";
 import Link from "next/link";
 import Image from "next/image";
+import AdBanner from "@/components/AdBanner";
 
 
 export default function Home() {
@@ -67,6 +68,13 @@ export default function Home() {
        
       </div>
     </div>
+    <div className="bg-black mb-5">
+              <AdBanner
+                dataAdFormat="auto"
+                dataFullWidthResponsive={true}
+                dataAdSlot="1953415038"
+              />
+            </div>
     </div>
   );
 }

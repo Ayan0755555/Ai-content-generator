@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Loader2Icon } from 'lucide-react';
+import AdBanner from '@/components/AdBanner';
 
 interface PROPS {
     selectedTemplate?: Template;
@@ -62,6 +63,13 @@ function FormSection({ selectedTemplate,userFormInput,loading }: PROPS) {
                     {loading&&<Loader2Icon className='animate-spin'/>}
                     Generate Content</Button>
             </form>
+            <div className="bg-black mt-5">
+              <AdBanner
+                dataAdFormat="auto"
+                dataFullWidthResponsive={true}
+                dataAdSlot="1953415038"
+              />
+            </div>
         </div>
     )
 }
