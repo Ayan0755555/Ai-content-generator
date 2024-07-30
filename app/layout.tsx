@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter,Outfit } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import Adsense from "@/components/Adsense";
 
 const inter = Outfit({ subsets: ["latin"] });
 
@@ -19,10 +18,6 @@ export default function RootLayout({
   return (
     <ClerkProvider>
     <html lang="en" className="!scroll-smooth">
-    <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2674225706786788"
-     crossOrigin="anonymous"></script>
-      </head>
       <body className={inter.className}>{children}</body>
     </html>
     </ClerkProvider>
