@@ -8,12 +8,11 @@ function layout({
     children: React.ReactNode;
   }>) {
   return (
+    
     <div>
-        <div className='md:w-64 hidden md:block fixed'>
-            <SideNav/>
-        </div>
-        <div className='md:ml-64'>
-            <Header/>
+
+        <div className='md:w-full'>
+          <Header/>
         {children}
         </div>
      
