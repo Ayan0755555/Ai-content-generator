@@ -1,3 +1,4 @@
+import AdBanner from '@/components/AdBanner'
 import { UserButton } from '@clerk/nextjs'
 import { Search } from 'lucide-react'
 import Image from 'next/image'

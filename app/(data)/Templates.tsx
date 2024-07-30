@@ -3,7 +3,7 @@ export default  [
         name:'Blog Title',
         desc:'An AI tool that generate blog title depends on yout blog information',
         category:'Blog',
-        icon:'https://cdn-icons-png.flaticon.com/128/4186/4186534.png',
+        icon:'https://cdn-icons-png.flaticon.com/128/17159/17159652.png',
         aiPrompt:'Give me 5 blog topic idea in bullet wise only based on give niche & outline and give me result in Rich text editor format',
         slug:'generate-blog-title',
         form:[
@@ -23,7 +23,7 @@ export default  [
     },
     {
         name: 'Blog Content',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that serves as your personal blog Content writer, generating catchy and viral-worthy titles in your chosen language.',
         category: 'blog',
         icon: 'https://cdn-icons-png.flaticon.com/128/4905/4905454.png',
         slug: 'blog-content-generation',
@@ -44,7 +44,7 @@ export default  [
     },
     {
         name: 'Blog Topic Ideas',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that serves as your personal blog topic ideas writer, generating catchy and viral-worthy titles in your chosen language.',
         category: 'Blog',
         icon: 'https://cdn-icons-png.flaticon.com/128/11497/11497847.png',
         slug: 'blog-topic-idea',
@@ -60,7 +60,7 @@ export default  [
     },
     {
         name: 'Youtube SEO Title',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that serves as your personal youtube seo title writer, generating catchy and viral-worthy titles in your chosen language.',
         category: 'Youtube Tools',
         icon: 'https://cdn-icons-png.flaticon.com/128/402/402075.png',
         slug: 'youtube-seo-title',
@@ -83,7 +83,7 @@ export default  [
     {
 
         name: 'Youtube Description',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that serves as your personal youtube description writer, generating catchy and viral-worthy titles in your chosen language.',
         category: 'Youtube Tool',
         icon: 'https://cdn-icons-png.flaticon.com/128/2111/2111748.png',
         slug: 'youtube-description',
@@ -104,7 +104,7 @@ export default  [
     },
     {
         name: 'Youtube Tags',
-        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        desc: 'An AI tool that serves as your personal youtube tags writer, generating catchy and viral-worthy titles in your chosen language.',
         category: 'Youtube Tool',
         icon: 'https://cdn-icons-png.flaticon.com/128/4674/4674918.png',
         slug: 'youtube-tag',
