@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchSection from './_components/SearchSection'
+import TemplateListSection from './_components/TemplateListSection'
 
 const Dashboard = () => {
   return (
@@ -8,6 +9,7 @@ const Dashboard = () => {
      <SearchSection/>
 
      {/*Template List Section*/}
+     <TemplateListSection/>
     </div>
   )
 }
