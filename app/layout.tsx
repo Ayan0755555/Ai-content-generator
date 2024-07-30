@@ -20,7 +20,8 @@ export default function RootLayout({
     <ClerkProvider>
     <html lang="en" className="!scroll-smooth">
     <head>
-        <Adsense pId="ca-pub-2674225706786788"/>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2674225706786788"
+     crossOrigin="anonymous"></script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
