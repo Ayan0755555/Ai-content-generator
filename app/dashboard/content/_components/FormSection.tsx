@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Loader2Icon } from 'lucide-react';
-import AdBanner from '@/components/AdBanner';
+
 
 interface PROPS {
     selectedTemplate?: Template;
