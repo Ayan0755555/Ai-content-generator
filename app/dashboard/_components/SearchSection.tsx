@@ -1,4 +1,4 @@
-import AdBanner from '@/components/AdBanner'
+
 import { Search } from 'lucide-react'
 import React from 'react'
 
