@@ -10,9 +10,7 @@ function Header() {
       <Image src={"/logo.svg"} alt='logo' width={40} height={60}/>
      <h1 className='font-semibold font-sans gap-3 text-3xl text-blue-700 '>Filledii</h1>
       </div>
-      <div>
-        <UserButton/>
-      </div>
+     
     </div>
   )
 }
