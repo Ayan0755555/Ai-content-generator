@@ -19,13 +19,7 @@ function SearchSection({onSearchInput}:any) {
     </div>
 
   </div>
-  <div className="bg-black mb-5">
-              <AdBanner
-                dataAdFormat="auto"
-                dataFullWidthResponsive={true}
-                dataAdSlot="1953415038"
-              />
-            </div>
+ 
   </div>
   )
 }

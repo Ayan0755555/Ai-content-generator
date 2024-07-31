@@ -63,13 +63,6 @@ function FormSection({ selectedTemplate,userFormInput,loading }: PROPS) {
                     {loading&&<Loader2Icon className='animate-spin'/>}
                     Generate Content</Button>
             </form>
-            <div className="bg-black mt-5">
-              <AdBanner
-                dataAdFormat="auto"
-                dataFullWidthResponsive={true}
-                dataAdSlot="1953415038"
-              />
-            </div>
         </div>
     )
 }
