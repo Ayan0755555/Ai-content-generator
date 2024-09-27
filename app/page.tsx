@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex">
             {/* <button type="button" className="hs-collapse-toggle size-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation"> */}
               <Image src={'/logo.svg'} alt="logo" width={40} height={60} />
-              <h1 className='font-semibold font-sans gap-3 text-4xl text-blue-700 '>Filledii</h1>
+              <h1 className='font-semibold font-sans gap-3 text-4xl text-blue-700 '>AyanRehman</h1>
             {/* </button> */}
           </div>
         </div>

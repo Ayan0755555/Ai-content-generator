@@ -8,7 +8,7 @@ function Header() {
     <div className='flex justify-between items-center p-5 shadow-sm border-b-2'>
       <div className='flex gap-2 items-center p-2 rounded-md max-w-md'>
       <Image src={"/logo.svg"} alt='logo' width={40} height={60}/>
-     <h1 className='font-semibold font-sans gap-3 text-3xl text-blue-700 '>Filledii</h1>
+     <h1 className='font-semibold font-sans gap-3 text-3xl text-blue-700 '>AyanRehman</h1>
       </div>
      <div>
       <UserButton/>
